@@ -1,33 +1,34 @@
-# Maven / Build
+HELP.md
 target/
-build/
-
-# IntelliJ
-.idea/
-*.iml
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Env
 .env
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Node (caso use futuramente)
-node_modules/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Docker
-*.pid
-*.seed
-*.pid.lock
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Java
-*.class
-*.jar
-*.war
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Test
-/coverage
+### VS Code ###
+.vscode/

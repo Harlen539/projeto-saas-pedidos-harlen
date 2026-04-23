@@ -1,0 +1,41 @@
+ALTER TABLE usuario
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE usuario
+    ALTER COLUMN empresa_id TYPE BIGINT;
+
+ALTER TABLE produto
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE produto
+    ALTER COLUMN empresa_id TYPE BIGINT;
+
+ALTER TABLE pedido
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE pedido
+    ALTER COLUMN empresa_id TYPE BIGINT;
+
+ALTER TABLE item_pedido
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE item_pedido
+    ALTER COLUMN pedido_id TYPE BIGINT;
+
+ALTER TABLE item_pedido
+    ALTER COLUMN produto_id TYPE BIGINT;
+
+ALTER TABLE empresa
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE refresh_token
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE refresh_token
+    ALTER COLUMN usuario_id TYPE BIGINT;
+
+ALTER TABLE password_reset_token
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER TABLE password_reset_token
+    ALTER COLUMN usuario_id TYPE BIGINT;
